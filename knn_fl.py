@@ -1,3 +1,4 @@
+# 概率建模与KNN分类实现
 import matplotlib
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']  # 替换为你系统存在的中文字体
 matplotlib.rcParams['axes.unicode_minus'] = False    # 解决负号显示
@@ -7,7 +8,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
-
 # 1. 构造二维数据
 X = np.array([[1,2],[2,3],[3,3],[6,5],[7,7],[8,6]])
 y = np.array([0,0,0,1,1,1])

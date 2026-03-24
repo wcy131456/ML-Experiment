@@ -1,5 +1,8 @@
 import matplotlib
-matplotlib.use('TkAgg')  # Windows 下常用后端，也可以试 'Qt5Agg'
+matplotlib.rcParams['font.sans-serif'] = ['SimHei']  # 替换为你系统存在的中文字体
+matplotlib.rcParams['axes.unicode_minus'] = False    # 解决负号显示
+#import matplotlib
+#matplotlib.use('TkAgg')  # Windows 下常用后端，也可以试 'Qt5Agg'
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.pyplot as plt

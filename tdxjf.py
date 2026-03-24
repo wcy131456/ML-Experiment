@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.rcParams['font.sans-serif'] = ['Microsoft YaHei']  # 替换为你系统有的中文字体
+matplotlib.rcParams['axes.unicode_minus'] = False    # 解决负号显示问题
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
